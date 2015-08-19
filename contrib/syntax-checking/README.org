@@ -15,6 +15,16 @@ This layer provides on the fly syntax checking using [[http://www.flycheck.org/]
 
 * Install
 
+** Prerequisite
+
+Flyspell requires [[http://aspell.net/][aspell]] to be installed.
+
+On Mac OS X:
+
+#+BEGIN_SRC shell
+homebrew install aspell
+#+END_SRC
+
 ** Layer
 
 To use this configuration layer add it to your =~/.spacemacs=
